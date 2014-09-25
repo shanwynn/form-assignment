@@ -27,9 +27,12 @@ a{
   color: #3333CC;
 }
 
+a:hover{
+  color: navy;
+}
+
 li {
   list-style: none;
-
 }
 
 li::before {
@@ -64,6 +67,7 @@ input[type=text] {
 
 div p {
   -webkit-columns: 4;
+  -moz-columns: 4;
   transition: background-color 0.5s ease;
 }
 
@@ -72,8 +76,20 @@ div p:hover {
   background-color: #000066;
   color: white;
 }
+
 footer {
     text-align: center;
     margin-top: 100px;
     font-size: .75em;
+    color: lightgray;
+    width: 200px;
+    height: 20px;
+    background: lightgray;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+footer:hover {
+  background: #000;
 }
