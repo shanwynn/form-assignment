@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <title>Get To Know Me</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <header>
+      <h1>Get To Know Me Form</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="http://shannonwynn.com">Shannon's Blog</a></li>
+        <li><a href="http://facebook.com/swynn">Shannon's Facebook</a></li>
+        <li><a href="http://twitter.com/shanwynn">Shannon's Twitter</a></li>
+        <li><a href="http://github.com/shanwynn">Shannon's Github</a></li>
+        <li><a href="http://theironyard.com/locations/tampa-st-petersburg/">The Iron Yard - Tampa/St. Pete</a></li>
+      </ul>
+    </nav>
+    <section>
+      <form action="form.php" method="POST">
+        <p>
+          <fieldset>
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" placeholder="Your name"
+              autofocus required maxlength="50" tabindex="1">
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="text" name="phone" id="phone" placeholder="Your email address"
+              required tabindex="2">
+            </div>
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input type="text" name="email" id="email" placeholder="Your phone number"
+              required tabindex="3">
+            </div>
+            <div class="field">
+              <label for="birthdate">Date of Birth</label>
+              <input type="text" name="birthdate" placeholder="MM/DD/YYYY"
+              required tabindex="4">
+            </div>
+            <div class="field">
+              <label for="city">Where were you born?</label>
+              <input type="text" name="city" id="city" placeholder="City/Town, State"
+              required tabindex="5">
+            </div>
+              <div class="field">
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+              </div>
+              <div class="field">
+            <label for="siblings">How many siblings do you have?</label>
+            <input type="number" name="siblings" id="siblings" value="0" required min="0" max="20">
+              </div>
+              <div class="field">
+                <label for "program">How are you associated with The Iron Yard?</label>
+                <select id="program" name="program" required tabindex="8">
+                  <option>Front End Engineering class</option>
+                  <option>Rails Engineering class</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="submit">
+                <button type="submit" tabindex="9">Share</button>
+              </div>
+          </fieldset>
+        </p>
+      </form>
+    </section>
+    <div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut venenatis justo. Praesent non pretium leo.
+        Maecenas accumsan sit amet velit sit amet hendrerit. Curabitur quis commodo sapien. Mauris in tempor arcu.
+        Donec non auctor dolor. In vel lobortis nibh, lacinia mattis felis. Curabitur velit dolor, dignissim quis tortor
+        at, finibus iaculis sem. Suspendisse vitae faucibus nulla. Ut facilisis ornare magna, vitae condimentum lorem.
+        Praesent at felis arcu. Duis id erat nec ex ornare molestie in et lacus. Nam eu facilisis est.
+      </p>
+    </div>
+    <footer></footer>
+  </body>
+  </html>

@@ -1,0 +1,79 @@
+* {
+  margin: 10px;
+}
+
+body {
+      background: linear-gradient(lightblue, lightgray);
+      color: black;
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+
+nav {
+  background: linear-gradient(lightgray, white);
+  vertical-align: top;
+  display: inline-block;
+}
+
+section {
+  display: inline-block;
+}
+
+h1 {
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: #3333CC;
+}
+
+li {
+  list-style: none;
+
+}
+
+li::before {
+  content: url("web_links_small.png");
+}
+
+fieldset {
+  background:	#DEECF2;
+  -webkit-border-radius: 1em;
+  border-radius: 1em;
+  border-color: linear-gradient(lightgray, darkgray);
+  border-size: 2px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+}
+
+button {
+  background: radial-gradient(#3333CC, lightblue);
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1em;
+  color: #fff;
+  width: 100px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  border: 1p solid #999;
+}
+
+input[type=text] {
+  -webkit-appearance: searchfield;
+  -moz-appearance: searchfield;
+}
+
+div p {
+  -webkit-columns: 4;
+  transition: background-color 0.5s ease;
+}
+
+div p:hover {
+  padding: 5;
+  background-color: #000066;
+  color: white;
+}
+footer {
+    text-align: center;
+    margin-top: 100px;
+    font-size: .75em;
+}
